@@ -1,0 +1,526 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1637849618542810, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849618543802, "dur": 16789, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849618560707, "dur": 46746, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849618607470, "dur": 540897, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849619148370, "dur": 3864430, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849623012814, "dur": 22927, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626048090, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626048285, "dur": 3855, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626052142, "dur": 31547, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626083691, "dur": 389704, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626473397, "dur": 526099, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849626999498, "dur": 12246, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849627012069, "dur": 37, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1637849626339913, "dur": 104991, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626340858, "dur": 38105, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626432779, "dur": 3551, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626436332, "dur": 8567, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626436857, "dur": 7594, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626448345, "dur": 1019, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1637849626447640, "dur": 1739, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849627012254, "dur": 97, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1637849626512277, "dur":1026, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626513307, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1637849626513339, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1637849626513348, "dur":373, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1637849626513736, "dur":312, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626514048, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976374, "dur":85, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976460, "dur":70, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976530, "dur":110, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976640, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976647, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976648, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976654, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976655, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976659, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976660, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976664, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976665, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976670, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976671, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976675, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976676, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976682, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976683, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976687, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976688, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976692, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976693, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976698, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976699, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976703, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976704, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976708, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976709, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976713, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976714, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976718, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976719, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976724, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976735, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626976799, "dur":696, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1637849626514007, "dur":66, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626514073, "dur":2907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626516982, "dur":8247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1637849626525232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626525238, "dur":967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1637849626526241, "dur":102757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626629002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626629074, "dur":4068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626633168, "dur":47904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626681096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626681104, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626682119, "dur":61022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626743144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626743151, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626744261, "dur":18695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626763140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626763146, "dur":870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626764045, "dur":19842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626783891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626783900, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626785167, "dur":34307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626819481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626819490, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626820197, "dur":103029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626923229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1637849626923234, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1637849626924554, "dur":51821, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626513997, "dur":73, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626514070, "dur":2917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626516988, "dur":9084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1637849626526075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626526079, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1637849626526914, "dur":87267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1637849626614183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626614187, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1637849626615635, "dur":68422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626684060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626684066, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626684952, "dur":29958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626714916, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626714926, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626716217, "dur":14544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626730764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626730768, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626732650, "dur":21867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626754521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626754526, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626755333, "dur":20632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626775970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626776084, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626777057, "dur":125859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626902920, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1637849626902926, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1637849626903855, "dur":72540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626513923, "dur":130, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626514054, "dur":2939, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626516999, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1637849626517127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626523643, "dur":54574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1637849626578254, "dur":34217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626612474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626612479, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626613605, "dur":70684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626684292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626684297, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626686301, "dur":29977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626716281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626716285, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626718098, "dur":12612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626730713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626730718, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626732325, "dur":13923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626746252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626746257, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626747791, "dur":13031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626760826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626760832, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626761708, "dur":81818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626843532, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626843541, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626844526, "dur":28907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626873437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626873443, "dur":8289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1637849626881957, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1637849626882012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626882015, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1637849626883489, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1637849626883584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1637849626883587, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1637849626885327, "dur":91058, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626513939, "dur":120, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626514059, "dur":2916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626516976, "dur":8957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1637849626525936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626525947, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1637849626526977, "dur":78543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze.exe" }}
+,{ "pid":12345, "tid":4, "ts":1637849626605523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626605527, "dur":904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze.exe" }}
+,{ "pid":12345, "tid":4, "ts":1637849626606451, "dur":77868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626684348, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626684353, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626686374, "dur":29534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626715911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626715916, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626717028, "dur":13586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626730618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626730624, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626732771, "dur":51241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626784016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626784021, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626785288, "dur":52300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626837593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626837601, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626838455, "dur":58481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626896941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1637849626896949, "dur":1051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1637849626898030, "dur":78363, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626513962, "dur":100, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626514063, "dur":2936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626516999, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1637849626517152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626527054, "dur":51396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1637849626578478, "dur":32321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626610802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626610846, "dur":630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626611501, "dur":72789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626684292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626684297, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626686411, "dur":28499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626714917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626714926, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626716165, "dur":17325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626733494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626733500, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626735047, "dur":19263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626754313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626754319, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626755196, "dur":25120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626780319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626780326, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626781194, "dur":133149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626914347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1637849626914352, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1637849626916234, "dur":60149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626513999, "dur":67, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626514067, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626516974, "dur":22351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1637849626539333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626539632, "dur":38844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1637849626578510, "dur":31206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626609721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626609941, "dur":749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626610720, "dur":73338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626684061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626684066, "dur":994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626685080, "dur":31098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626716184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626716188, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626718061, "dur":26684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626744748, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626744755, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626745656, "dur":17089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626762749, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626762755, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626764568, "dur":23509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626788082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626788089, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626789720, "dur":73443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626863168, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626863177, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626866009, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626866591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626866598, "dur":590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1637849626867213, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1637849626867244, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626867284, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1637849626867998, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1637849626868027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626868031, "dur":9481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1637849626877551, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1637849626877587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626877593, "dur":3940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1637849626881566, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1637849626881599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626881604, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1637849626883319, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1637849626883353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1637849626883357, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1637849626885314, "dur":91056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626514027, "dur":49, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626514076, "dur":2902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626516978, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1637849626517120, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626518518, "dur":7607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1637849626526158, "dur":78343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626604506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626604670, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626605480, "dur":78721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626684205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626684209, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626685779, "dur":37422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626723206, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626723216, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626724239, "dur":15117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626739360, "dur":35, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626739400, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626740583, "dur":29734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626770320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626770326, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626772714, "dur":52742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626825460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626825466, "dur":663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626826154, "dur":55878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626882036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1637849626882041, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1637849626885080, "dur":91311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626514050, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626514050, "dur":2913, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626516974, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1637849626516978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626517783, "dur":322, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1637849626518108, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1637849626518146, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626518297, "dur":4404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1637849626522703, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1637849626522768, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626522864, "dur":280909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1637849626803809, "dur":17275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1637849626821088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626821094, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1637849626821926, "dur":86005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1637849626907933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1637849626907938, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1637849626909289, "dur":67090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626514077, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626514077, "dur":2894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626516974, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1637849626517108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626518426, "dur":7873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1637849626526332, "dur":116752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626643089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626643095, "dur":12329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626655449, "dur":60506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626715958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626715962, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626718395, "dur":29602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626748000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626748006, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626749492, "dur":13595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626763206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626763212, "dur":1026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626764266, "dur":14464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626778735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626778743, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626779782, "dur":44380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626824166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626824173, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626825925, "dur":60345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626886272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1637849626886277, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1637849626887264, "dur":89122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626514095, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626514096, "dur":2881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626516979, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1637849626517120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626518396, "dur":283900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1637849626802332, "dur":67374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1637849626869709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626869714, "dur":9122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1637849626878874, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1637849626878914, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626878919, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1637849626880076, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1637849626880181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626880185, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1637849626881526, "dur":746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1637849626882275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1637849626882279, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1637849626884761, "dur":91610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1637849626514122, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1637849626514122, "dur":2867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1637849626516991, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1637849626517197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1637849626527394, "dur":278600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1637849626806032, "dur":66578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1637849626872615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1637849626872623, "dur":10916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1637849626883575, "dur":92797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626514138, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626514138, "dur":2857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626516997, "dur":6463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1637849626523463, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626523519, "dur":725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1637849626524277, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1637849626524346, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626524350, "dur":54130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1637849626578511, "dur":34162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626612676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626612681, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626613908, "dur":67504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626681414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626681419, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626682623, "dur":33593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626716219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626716224, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626717976, "dur":21267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626739247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626739254, "dur":821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626740102, "dur":13632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626753741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626753751, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626754571, "dur":16501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626771076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626771082, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626771970, "dur":29136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626801182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626801191, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626802134, "dur":54083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626856223, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626856232, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626858220, "dur":115975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626974199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1637849626974204, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1637849626976345, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1637849626976346, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626514162, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626514163, "dur":2858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626517022, "dur":8848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1637849626525873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626525878, "dur":1094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1637849626527003, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1637849626527080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626527299, "dur":54412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1637849626581735, "dur":31045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626612783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626612787, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626613805, "dur":70373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626684182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626684187, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626686005, "dur":31128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626717137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626717148, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626718628, "dur":20065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626738698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626738707, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626739584, "dur":16167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626755754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626755760, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626757148, "dur":12872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626770026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626770036, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626770952, "dur":41273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626812231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626812239, "dur":1414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626813684, "dur":92770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626906458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1637849626906464, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1637849626907244, "dur":69138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626514177, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626514177, "dur":2806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626516985, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1637849626517146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626523751, "dur":54689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1637849626578468, "dur":32469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626610940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626610945, "dur":944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626611921, "dur":72302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626684226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626684231, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626686059, "dur":29797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626715859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626715865, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626717443, "dur":13826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626731273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626731278, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626732931, "dur":13290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626746224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626746231, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626747245, "dur":13271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626760521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626760530, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626761592, "dur":23272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626784867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626784872, "dur":766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626785664, "dur":82850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626868517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626868521, "dur":13514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1637849626882063, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1637849626882093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1637849626882097, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1637849626884969, "dur":91420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626514201, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626514201, "dur":2771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626516973, "dur":8279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1637849626525256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626525262, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1637849626525943, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1637849626526033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626526038, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1637849626527828, "dur":83313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626611144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626611148, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626612160, "dur":69161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626681325, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626681332, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626682513, "dur":33654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626716170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626716175, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626717749, "dur":12553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626730307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626730316, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626731496, "dur":14938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626746438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626746443, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626747729, "dur":55152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626802885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626802891, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626806562, "dur":21819, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626828384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626828392, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626829134, "dur":56627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626885764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1637849626885771, "dur":915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1637849626886714, "dur":89659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626514230, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626514231, "dur":2742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626516974, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1637849626517125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626523265, "dur":55072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1637849626578365, "dur":32602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626610970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626610973, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626611871, "dur":72379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626684253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626684257, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626686222, "dur":28961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626715186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626715215, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626716220, "dur":25709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626742025, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626742034, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626742949, "dur":21568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626764520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626764525, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626765357, "dur":55789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626821150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626821155, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626822081, "dur":36812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626858896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626858966, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626859690, "dur":78417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626938110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1637849626938114, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/CollabGameJam/clean_final_2/Glow Maze_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1637849626938770, "dur":37604, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1637849626978085, "dur":1326, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1637849627012380, "dur": 393, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1637849627012061, "dur": 723, "ph": "X", "name": "Write chrome-trace events", "args": {} },
