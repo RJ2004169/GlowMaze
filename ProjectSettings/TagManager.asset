@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - FireBug
+  - TopDownCamera
+  - StartScreen
+  - PauseScreen
+  - GameOverScreen
+  - FinishScreen
   layers:
   - Default
   - TransparentFX

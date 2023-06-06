@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>9.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{74295D72-9383-60D6-F0D5-417F3D71E7C2}</ProjectGuid>
+    <ProjectGuid>{5F776115-A26A-0704-B5C8-139B55FC6695}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,12 +53,17 @@
     <UnityVersion>2021.2.3f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\Camera.cs" />
-    <Compile Include="Assets\Scripts\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\PlayState.cs" />
+    <Compile Include="Assets\Scripts\Legacy\Player.cs" />
+    <Compile Include="Assets\Scripts\Legacy\Camera.cs" />
+    <Compile Include="Assets\Scripts\States.cs" />
+    <Compile Include="Assets\Scripts\StartState.cs" />
+    <Compile Include="Assets\Scripts\Legacy\HealthSystem.cs" />
+    <Compile Include="Assets\Scripts\StateMachine.cs" />
+    <Compile Include="Assets\Scripts\BugController.cs" />
+    <Compile Include="Assets\Scripts\GameOverState.cs" />
+    <Compile Include="Assets\Scripts\PauseState.cs" />
+    <Compile Include="Assets\Scripts\FinishState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -633,28 +638,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{84AFB9E5-47B4-5D9F-E69B-44D0D55A60E7}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{E0E6ABE9-CFB8-71E6-E834-BC98F294AE32}</Project>
+      <Project>{9925CA14-D6DB-DB73-508D-F95E186F3E9E}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{8F239E7B-332A-98DE-0C2C-C5905C2C3349}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{88F46D99-448F-4375-B5BC-5E2C41623868}</Project>
+      <Project>{EB514D3E-006A-6FC4-8DA5-87C76B4BB517}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{486ECC59-CB68-34D3-9993-D5757D2EEE4B}</Project>
+      <Project>{16A7CF72-43D9-9080-4FD3-60A434CB3D64}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{0278AF64-DB29-45CE-F6A0-85DE88F231BC}</Project>
+      <Project>{C4C418F6-78A1-BC3B-9247-340237053E68}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{E67E9F82-6F0B-9543-15E0-94F2991D8F15}</Project>
+      <Project>{48DE455A-B19D-FF16-019C-97CAFCD00408}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
   </ItemGroup>
